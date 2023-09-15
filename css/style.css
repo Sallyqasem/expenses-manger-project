@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    width: 90%;
+    margin: 0px auto;
+    font-size: 50px;
+    font-family: 'Exo', sans-serif;
+}
+
+.top-section{
+ display: flex;
+ column-gap: 16px;
+ margin-top: 113px;
+}
+
+.right-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px  ;
+
+}
+.pregraph > span {
+    color: #6776AF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.pregraph > p {
+    color: #ACACAC;
+    font-size: 0.5rem;
+    font-weight: 300;
+}
+.input-section{
+    display: flex;
+    flex-direction: column;
+}
+.group-div{
+    display: flex;
+    column-gap: 10px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 0.5rem;
+    color: #4A4A4A;
+}
+input{
+    border: 0.5px solid #707070;
+    border-radius: 5px;
+    width: 100%;
+}
+.btn-save{
+    font-size: 0.5rem;
+    background-color: #273685;
+    color: white;
+    margin-top: 10px;
+    /* padding: 11px 105px; */
+    border: none;
+    border-radius: 27.5px;
+    float: right;
+    width: 30%;
+    height: 80%;
+    
+
+}
+.buttom-section{
+    background-color: #F9FAFF;
+    border-radius: 15px;
+    padding: 34px 64.5px 80px;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+.test-th{
+    border-bottom: 1px solid #273685;
+}
+th{
+color: #273685;
+font-weight: bold;
+}
+
+th :last-child {
+margin-right: 240px;
+}
+
+td{
+    text-align: center;
+    padding: 20px;
+    font-size: 0.5rem;
+}
+tr > td , th {
+    text-align: start;
+    width: 10px;
+}
+.test{
+    border-bottom: 1px solid #D8D8D8;
+}
+
+  
+
